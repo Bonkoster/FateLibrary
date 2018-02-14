@@ -1,7 +1,6 @@
+<#import "additional/additional.ftl" as additional>
 <html>
-	<head>
-		<title>${title}</title>
-	</head>
+	<@additional.head/>
 	<body>
 		<h1>${welcome}</h1>
 	</body>

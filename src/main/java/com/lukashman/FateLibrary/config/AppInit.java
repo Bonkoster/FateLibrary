@@ -9,6 +9,8 @@ import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
+import com.lukashman.FateLibrary.beans.AllBeans;
+
 public class AppInit implements WebApplicationInitializer {
 
 	public void onStartup(ServletContext container) throws ServletException {

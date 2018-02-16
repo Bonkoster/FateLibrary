@@ -1,4 +1,4 @@
-package com.lukashman.FateLibrary.config;
+package com.lukashman.FateLibrary.beans;
 
 import org.springframework.context.annotation.Configuration;
 

@@ -13,6 +13,8 @@
 			<li><a href="<@spring.url '/'/>">Main<a/></li>
 			<li><a href="<@spring.url '/masters'/>">Masters<a/></li>
 			<li><a href="<@spring.url '/servants'/>">Servants</a></li>
+			<li><a href="<@spring.url '/files/fileUpload'/>">Files Test</a></li>
+			<li><a href="<@spring.url '/rest/greeting'/>">REST Test</a><li>
 		</ul>
 	</div>	
 </#macro>

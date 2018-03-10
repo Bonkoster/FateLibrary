@@ -19,10 +19,20 @@ body {
 	border: 20px #8b8fde;	
 }
 
-#menubar li {
-	display: inline-block;
+#menubar {
+	height: 50px
 }
 
-li {
-	color: red;
+#menubar li {
+	display: inline-block;
+	margin: 10px 10px;
+	line-height: 68px;
+	top:0px;
+    height:100%;
+    right:16px;
+}
+
+#menubar a {
+	text-decoration: none;
+	font-family: 'Roboto';
 }

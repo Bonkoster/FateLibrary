@@ -1,8 +1,13 @@
 package com.lukashman.FateLibrary.config;
 
+import java.util.List;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.http.converter.HttpMessageConverter;
+import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
+import org.springframework.http.converter.json.MappingJackson2HttpMessageConverter;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.ViewResolverRegistry;
@@ -39,7 +44,7 @@ public class AppConfig implements WebMvcConfigurer {
 	@Bean
 	public FreeMarkerConfigurer freemarkerConfig() {
 		FreeMarkerConfigurer freeMarkerConfigurer = new FreeMarkerConfigurer();
-		freeMarkerConfigurer.setTemplateLoaderPaths("/WEB-INF/views","/WEB-INF/views/additional");
+		freeMarkerConfigurer.setTemplateLoaderPaths("/WEB-INF/views","/WEB-INF/views/additional","/WEB-INF/views/filesTest");
 		freeMarkerConfigurer.setDefaultEncoding("UTF-8");
 		return freeMarkerConfigurer;
 	}

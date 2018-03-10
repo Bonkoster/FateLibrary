@@ -8,13 +8,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 @Controller
+@RequestMapping(value = "/")
 public class FateController {
 	
 	private static final Logger LOGGER = LogManager.getLogger(FateController.class);
 	
 	public static final String mainTitle = new String("Fate/stay night library | ");
 	
-	@RequestMapping(value = "/")
+	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView index() {
 		LOGGER.warn("Welcome Page!");
 		ModelAndView md = new ModelAndView("index");

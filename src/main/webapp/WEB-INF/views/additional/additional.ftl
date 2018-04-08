@@ -10,11 +10,9 @@
 <#macro menubar>
 	<div>
 		<ul id="menubar">
-			<li><a href="<@spring.url '/'/>">Main<a/></li>
-			<li><a href="<@spring.url '/masters'/>">Masters<a/></li>
-			<li><a href="<@spring.url '/servants'/>">Servants</a></li>
-			<li><a href="<@spring.url '/files/fileUpload'/>">Files Test</a></li>
-			<li><a href="<@spring.url '/rest/greeting'/>">REST Test</a><li>
+			<a href="<@spring.url '/'/>"><li>Main</li><a/>
+			<a href="<@spring.url '/masters'/>"><li>Masters</li><a/>
+			<a href="<@spring.url '/servants'/>"><li>Servants</li></a>
 		</ul>
 	</div>	
 </#macro>

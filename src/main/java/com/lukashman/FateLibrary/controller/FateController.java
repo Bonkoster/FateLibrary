@@ -13,13 +13,13 @@ public class FateController {
 	
 	private static final Logger LOGGER = LogManager.getLogger(FateController.class);
 	
-	public static final String mainTitle = new String("Fate/stay night library | ");
+	private static final String MAIN_TITLE = new String("Fate/stay night library | ");
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public ModelAndView index() {
 		LOGGER.warn("Welcome Page!");
 		ModelAndView md = new ModelAndView("index");
-		md.addObject("title", mainTitle + "Main");
+		md.addObject("title", MAIN_TITLE + "Main");
 		md.addObject("welcome","Welcome!!!");
 		
 		return md;
@@ -29,7 +29,7 @@ public class FateController {
 	public ModelAndView masters() {
 		LOGGER.warn("Masters Page!");
 		ModelAndView md = new ModelAndView("masters");
-		md.addObject("title", mainTitle + "Masters");
+		md.addObject("title", MAIN_TITLE + "Masters");
 		md.addObject("welcome", "Masters!!!");
 		
 		return md;
@@ -39,7 +39,7 @@ public class FateController {
 	public ModelAndView servants() {
 		LOGGER.warn("Servants Page!");
 		ModelAndView md = new ModelAndView("servants");
-		md.addObject("title", mainTitle + "Servants");
+		md.addObject("title", MAIN_TITLE + "Servants");
 		md.addObject("welcome", "Servants!!!");
 		
 		return md;

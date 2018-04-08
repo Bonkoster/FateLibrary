@@ -1,0 +1,9 @@
+com\lukashman\FateLibrary\beans\TestBeans.class
+com\lukashman\FateLibrary\controller\FateController.class
+com\lukashman\FateLibrary\model\Greeting.class
+com\lukashman\FateLibrary\beans\AllBeans.class
+com\lukashman\FateLibrary\controller\RESTTestController.class
+com\lukashman\FateLibrary\beans\FileBeans.class
+com\lukashman\FateLibrary\config\AppInit.class
+com\lukashman\FateLibrary\config\AppConfig.class
+com\lukashman\FateLibrary\controller\FileController.class

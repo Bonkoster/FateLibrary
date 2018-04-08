@@ -2,10 +2,8 @@
 <html>
 	<@additional.head/>
 	<body>
-		<div id="wrapper">
-			<div id="content">
-				<@additional.menubar/>
-			</div>
+		<div id="content">
+			<@additional.menubar/>
 		</div>
 	</body>
 	<@additional.footer/>

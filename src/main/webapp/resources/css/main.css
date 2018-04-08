@@ -10,13 +10,15 @@ body {
 	margin: 0;
 }
 
-#wrapper {
+#content {
 	width: 100%;
 	text-align: center;
 }
 
 #menubar {
-	background-color: #111331;
+	background-color: #111331; 
+	border: 1px #cece00 solid;
+	opacity: 0.9;
 }
 
 #menubar ul {
@@ -25,16 +27,21 @@ body {
 
 #menubar li {
 	display: inline-block;
-	line-height: 70px;
+	line-height: 50px;
+	margin-bottom: 2px;
 	padding: 0 40px;
+}
+
+#menubar li:hover {
+	color: #111331;
+	background: #ffffaa;
+	border-bottom: 2px #cece00 solid;
+	margin-bottom: 0;
+	transition: background-color 0.2s ease-out;
 }
 
 #menubar a {
 	text-decoration: none;
 	font-family: 'Roboto';
-	color: #fafa1f;
-}
-
-#content {
-	width: 100%;
+	color: #cece00;
 }

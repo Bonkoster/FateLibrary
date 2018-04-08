@@ -2,11 +2,9 @@
 <html>
 	<@additional.head/>
 	<body>
-		<div id="wrapper">
-			<div id="content">
-				<@additional.menubar/>
-				<h1>${welcome}</h1>
-			</div>
+		<div id="content">
+			<@additional.menubar/>
+			<h1>${welcome}</h1>
 		</div>
 	</body>
 	<@additional.footer/>
